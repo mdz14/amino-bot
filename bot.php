@@ -9,7 +9,7 @@ $update = json_decode($update, TRUE);
  
 $chatId = reply_to_message_id;
 $chatId = $update["message"]["chat"]["id"];
-//$chatId = "-490195907";
+$chatId = "998426022";
 $gId = $update["message"]["from"]["id"];
 $userId = $update["message"]["from"]["id"];
 $firstname = $update["message"]["from"]["first_name"];
